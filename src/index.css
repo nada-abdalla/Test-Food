@@ -1,0 +1,7 @@
+#root{
+    height: 569px;
+}
+#root #contianer,
+#root #contianer #item{
+    height: 100%;
+}

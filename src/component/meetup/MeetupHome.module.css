@@ -1,0 +1,94 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    margin: 0;
+}
+.home{
+    height: 100%;
+}
+.home .back{
+    height: 100%;
+    width: 100%;
+}
+.home .containe{
+    display: flex;
+    position: relative;
+    bottom: 485px;
+    justify-content: center;
+    color: white;
+}
+.home .containe .text{
+    width: 22%;
+    background-color: rgb(30 33 33 / 60%);
+    z-index: 2;
+    height: 309px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.home .containe .text .leaf{
+    width: 30px;
+    position: relative;
+    left: 132px;
+    top: 16px;
+}
+.home .containe .text h3{
+    position: relative;
+    left: 158px;
+    font-size: xx-large;
+    bottom: 42px;
+}
+.home .containe .text  p{
+    position: relative;
+    
+}
+.home .containe .text  p:nth-of-type(1){
+    left: 161px;
+    bottom: 98px;
+    font-size: 50px;
+}
+.home .containe .text  p:nth-of-type(2){
+    font-size: 57px;
+    left: 110px;
+    bottom: 166px;
+    color: yellow;
+}
+.home .containe .text  p:nth-of-type(3){
+    font-size: 49px;
+    left: 116px;
+    bottom: 235px;
+}
+.home .containe .text  p:nth-of-type(4){
+    bottom: 299px;
+    font-size: 56px;
+    left: 149px;
+}
+.home .containe .text  p:nth-of-type(5){
+    bottom: 364px;
+    font-size: 27px;
+    left: 189px;
+    color: yellow;
+}
+.home .containe .img{
+    width: 20%;
+    position: relative;
+    right: 135px;
+    top: 5px;
+    z-index: 1;
+}
+.home .containe .img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+@media (max-width: 820px) {
+    .home .containe .text{
+        width: 33%;
+    }
+}
+@media (max-width: 430px) {
+    .home .containe{
+        right: 44px;
+    }
+    .home .containe .text{
+        width: 62%;
+    }
+}

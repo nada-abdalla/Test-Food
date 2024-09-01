@@ -1,0 +1,53 @@
+.drinks{
+    background-image: url('../../images/398170911_720434349651463_8066112888712939949_n.jpg');
+    height: 100%;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.drinks header h2{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.drinks header p{
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    font-size: x-small;
+    letter-spacing: 2px;
+    color: darkorange;
+}
+.drinks .content{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    padding-bottom: 30px;
+}
+.drinks .content:nth-of-type(2),
+.drinks .content:nth-of-type(4){
+    position: relative;
+    left: 93px;
+    width: 89%;
+}
+.drinks .content div img{
+    width: 87px;
+    height: 87px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+}
+.drinks .content div:last-of-type{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    border: 1px solid;
+}
+.drinks .content div p{
+    line-height: 57px;
+}
+@media (max-width: 430px) {
+    .drinks .content{
+        justify-content: flex-start;
+    }
+}

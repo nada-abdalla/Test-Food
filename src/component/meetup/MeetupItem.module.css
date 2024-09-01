@@ -1,0 +1,128 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+.background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+.background::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36 39 39 / 28%);
+}
+.background img{
+    width: 100%;
+    height: 100%;
+}
+.main .icon{
+    margin-top: -551px;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+}
+.main .icon .imgs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .nav{
+    position: relative;
+    z-index: 10;
+    width: 270px;
+    height: 350px;
+    margin-top: -430px;
+    border: 1px solid;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.main .nav .back{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.main .nav .back::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(30 33 33 / 30%);
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.main .nav .back img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.main .nav .info{
+    position: relative;
+    z-index: 20;
+    margin-top: -312px;
+}
+.main .nav .text{
+    padding-top: 30px;
+    color: white;
+}
+.main .nav .text h3{
+    margin-left: 10px;
+}
+.main .nav .text p {
+    margin-left: 10px;
+}
+.main .nav .time{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 264px;
+}
+.main .nav .time p{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.main .nav .temp {
+    display: flex;
+    position: relative;
+}
+.main .nav .temp::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    top: 13px;
+    left: 27px;
+    border: 1px solid white;
+}
+.main .nav .temp p{
+    margin-left: 10px;
+    color: white;
+}
+.main .nav .temp img{
+    width: 25px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+@media (max-width: 430px) {
+    .main .nav{
+        width: 225px;
+    }
+    .main .nav .time{
+        width: 218px;
+    }
+}

@@ -1,0 +1,132 @@
+.location{
+    height: 100%;
+    background-image: url('../../images/355754096_1650501458785302_8670880789368513167_n.jpg');
+}
+.location .social{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.location .social p{
+    color: white;
+}
+.location .social .imgs{
+    display: flex;
+    gap: 3px;
+    position: relative;
+    top: -13px;
+}
+.location .social .imgs div{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.location .social .imgs div img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+.location .text{
+    display: flex;
+    justify-content: center;
+    height: 72%;
+}
+.location .text .content .wone{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.location .text .content .wone .yellowp{
+    color: yellow;
+    letter-spacing: 6px;
+    position: relative;
+    bottom: 37px;
+}
+.location .text .content .yellow{
+    display: flex;
+    gap: 119px;
+    font-size: xxx-large;
+    font-weight: bold;
+    position: relative;
+    bottom: 130px;
+    color: yellow;
+}
+.location .text .content .white{
+    display: flex;
+    gap: 126px;
+    font-size: xxx-large;
+    font-weight: bold;
+    position: relative;
+    bottom: 240px;
+    color: white;
+}
+.location .text .content .white::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 78px;
+    background-color: yellow;
+    top: 18px;
+    left: 50px;
+    border-radius: 15px;
+}
+.location .text .content .white::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 78px;
+    background-color: yellow;
+    top: 18px;
+    left: 107px;
+    border-radius: 15px;
+}
+.location .text .img img{
+    width: 132px;
+}
+.location .footer{
+    position: relative;
+    bottom: 26px;
+    display: flex;
+    gap: 195px;
+    background-color: #04043c;
+}
+.location .footer .phone {
+    margin-left: 54px;
+    color: white;
+}
+.location .footer .phone p:last-of-type{
+    position: relative;
+    bottom: 14px;
+}
+.location .footer .textf{
+    display: flex;
+    color: white;
+}
+.location .footer .textf p{
+    width: 90px;
+}
+.location .footer .textf div{
+    margin-left: 15px;
+    text-align: center;
+    line-height: 58px;
+    height: 60px;
+    position: relative;
+    top: 11px;
+}
+.location .footer .textf div:first-of-type{
+    background-color: #d90a0a;
+}
+.location .footer .textf div:last-of-type{
+    background-color: orangered;
+}
+@media (max-width: 430px) {
+    .location .footer{
+        gap: 85px;
+    }
+    .location .footer .phone{
+        margin-left: 10px;
+    }
+}
+
